@@ -19,12 +19,12 @@ const Home = () => {
     },
     {
       name: "instagram",
-      link: "/",
+      link: "/https://www.instagram.com/vinayteja_19/",
       icon: <FaInstagram />,
     },
     {
       name: "linkedin",
-      link: "/",
+      link: "/https://www.linkedin.com/in/vinay-teja-2aa29a1a1/",
       icon: <FaLinkedin />,
     },
   ];

@@ -39,16 +39,16 @@ const Footer = () => {
       link: "/",
       icon: <FaTwitter />,
     },
-    {
-      name: "instagram",
-      link: "/",
-      icon: <FaInstagram />,
-    },
-    {
-      name: "linkedin",
-      link: "/",
-      icon: <FaLinkedin />,
-    },
+   {
+       name: "instagram",
+       link: "/https://www.instagram.com/vinayteja_19/",
+       icon: <FaInstagram />,
+     },
+     {
+       name: "linkedin",
+       link: "/https://www.linkedin.com/in/vinay-teja-2aa29a1a1/",
+       icon: <FaLinkedin />,
+     },
   ];
 
   return (
