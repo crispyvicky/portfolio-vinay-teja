@@ -1,33 +1,47 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTelegram,
+  FaYoutube,
+} from "react-icons/fa";
+import { SiX } from "react-icons/si"; 
 import Link from "next/link";
 
 const Home = () => {
-  const SOCIAL_LINKS = [
-    {
-      name: "facebook",
-      link: "/",
-      icon: <FaFacebook />,
-    },
-    {
-      name: "twitter",
-      link: "/",
-      icon: <FaTwitter />,
-    },
-    {
-      name: "instagram",
-      link: "/https://www.instagram.com/vinayteja_19/",
-      icon: <FaInstagram />,
-    },
-    {
-      name: "linkedin",
-      link: "/https://www.linkedin.com/in/vinay-teja-2aa29a1a1/",
-      icon: <FaLinkedin />,
-    },
-  ];
+ const SOCIAL_LINKS = [
+  {
+    name: "facebook",
+    link: "https://www.facebook.com/people/VisionTech-Group/61576090701067/",
+    icon: <FaFacebook />,
+  },
+  {
+    name: "twitter",
+    link: "https://x.com/GroupVisiontech",
+    icon: <SiX />, // updated icon for X (Twitter)
+  },
+  {
+    name: "instagram",
+    link: "https://www.instagram.com/vinayteja_19/",
+    icon: <FaInstagram />,
+  },
+  {
+    name: "linkedin",
+    link: "https://www.linkedin.com/in/vinay-teja-2aa29a1a1/",
+    icon: <FaLinkedin />,
+  },
+  {
+    name: "telegram",
+    link: "https://web.telegram.org/a/#-1002630400957",
+    icon: <FaTelegram />,
+  },
+  {
+    name: "youtube",
+    link: "https://www.youtube.com/channel/UCXqEQUykoLtWECsUzY2SL9Q",
+    icon: <FaYoutube />,
+  },
+];
   return (
     <section className="h-[90vh] m-auto w-9/12 py-5 grid grid-cols-3">
       {/* Intro Here */}
@@ -59,9 +73,9 @@ const Home = () => {
 
         {/* Social Links */}
         <div className="w-full absolute bottom-15 py-2">
-          <div className="w-2/5 m-auto flex justify-between">
+          <div className="w-3/5 m-auto flex justify-between">
             {SOCIAL_LINKS.map((social) => (
-              <Link href={social.link} className="text-xl">
+              <Link href={social.link} className="text-xl" key={social.name}>
                 {social.icon}
               </Link>
             ))}

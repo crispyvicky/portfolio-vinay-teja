@@ -1,8 +1,12 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTelegram,
+  FaYoutube,
+} from "react-icons/fa";
+import { SiX } from "react-icons/si"; 
 import Link from "next/link";
 
 const Footer = () => {
@@ -28,28 +32,38 @@ const Footer = () => {
       link: "#contact",
     },
   ];
-  const SOCIAL_LINKS = [
-    {
-      name: "facebook",
-      link: "/",
-      icon: <FaFacebook />,
-    },
-    {
-      name: "twitter",
-      link: "/",
-      icon: <FaTwitter />,
-    },
-   {
-       name: "instagram",
-       link: "/https://www.instagram.com/vinayteja_19/",
-       icon: <FaInstagram />,
-     },
-     {
-       name: "linkedin",
-       link: "/https://www.linkedin.com/in/vinay-teja-2aa29a1a1/",
-       icon: <FaLinkedin />,
-     },
-  ];
+ const SOCIAL_LINKS = [
+  {
+    name: "facebook",
+    link: "https://www.facebook.com/people/VisionTech-Group/61576090701067/",
+    icon: <FaFacebook />,
+  },
+  {
+    name: "twitter",
+    link: "https://x.com/GroupVisiontech",
+    icon: <SiX />, // updated icon for X (Twitter)
+  },
+  {
+    name: "instagram",
+    link: "https://www.instagram.com/vinayteja_19/",
+    icon: <FaInstagram />,
+  },
+  {
+    name: "linkedin",
+    link: "https://www.linkedin.com/in/vinay-teja-2aa29a1a1/",
+    icon: <FaLinkedin />,
+  },
+  {
+    name: "telegram",
+    link: "https://web.telegram.org/a/#-1002630400957",
+    icon: <FaTelegram />,
+  },
+  {
+    name: "youtube",
+    link: "https://www.youtube.com/channel/UCXqEQUykoLtWECsUzY2SL9Q",
+    icon: <FaYoutube />,
+  },
+];
 
   return (
     <footer className="bg-[#F8F8F8]">
