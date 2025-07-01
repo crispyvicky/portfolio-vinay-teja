@@ -29,7 +29,7 @@ const Home = () => {
     },
   ];
   return (
-    <section className="h-[90vh] m-auto w-9/12 py-5 grid grid-cols-3">
+    <section id="home" className="h-[90vh] m-auto w-9/12 py-5 grid grid-cols-3">
       {/* Intro Here */}
       <div className="col-span-2  flex flex-col">
         <p className="text-[20px] py-2">Hi I’m</p>
