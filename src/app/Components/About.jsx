@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="h-[90vh] mt-10 m-auto w-9/12 py-5 grid grid-cols-3">
+    <div id="about" className="h-[90vh] pt-10 m-auto w-9/12 py-5 grid grid-cols-3">
       <div className="flex items-center relative">
         <img src="/image/image_2.png" />
       </div>

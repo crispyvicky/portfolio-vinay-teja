@@ -3,8 +3,8 @@ import React from "react";
 const Projects = () => {
   return (
     <section
-      id="services"
-      className="w-11/12 max-w-6xl mx-auto flex flex-col items-center my-16 mt-28 "
+      id="project"
+      className="w-11/12 max-w-6xl mx-auto flex flex-col items-center my-16 pt-16 "
     >
       <h2 className="text-[#000] font-extrabold text-4xl mb-2">My Projects</h2>
       <p className="w-9/12 m-auto text-xl text-center mt-4 font-semibold">
