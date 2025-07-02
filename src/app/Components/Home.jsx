@@ -19,7 +19,7 @@ const Home = () => {
   {
     name: "twitter",
     link: "https://x.com/GroupVisiontech",
-    icon: <SiX />, // updated icon for X (Twitter)
+    icon: <SiX />,
   },
   {
     name: "instagram",
@@ -43,19 +43,19 @@ const Home = () => {
   },
 ];
   return (
-    <section className="h-[90vh] m-auto w-9/12 py-5 grid grid-cols-3">
+    <section className="h-[90vh] m-auto w-9/12 py-5 lg:grid grid-cols-3">
       {/* Intro Here */}
       <div className="col-span-2  flex flex-col">
-        <p className="text-[20px] py-2 font-semibold">Hi I’m</p>
-        <p className="text-[40px] text-[#A20895] font-semibold">VINAY TEJA</p>
-        <p className="text-[70px] font-bold">FOUNDER & CEO</p>
-        <p className="text-[20px] font-semibold">
+        <p className="lg:text-[20px] py-2 font-semibold">Hi I’m</p>
+        <p className="lg:text-[40px] text-[#A20895] font-semibold">VINAY TEJA</p>
+        <p className="lg:text-[70px] font-bold">FOUNDER & CEO</p>
+        <p className="lg:text-[20px] text-sm font-semibold">
           In a world driven by acceleration, VisionTech emerged as a force of
           intention built to challenge the ordinary and awaken the
           extraordinary. It’s not just a hub for education, but a launchpad for
           transformation, where every learner is seen as a future leader.
         </p>
-        <p className="text-[20px] mt-4 font-semibold">
+        <p className="lg:text-[20px] mt-4 font-semibold">
           Here, innovation is not a subject it's a mindset. Community,
           creativity, and code converge to craft experiences that shape
           character as much as skill. This space is more than a platform, it's a

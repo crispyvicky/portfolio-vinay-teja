@@ -10,6 +10,7 @@ import { SiX } from "react-icons/si";
 import Link from "next/link";
 
 const Footer = () => {
+
   const NavBar_Array = [
     {
       name: "Home",
@@ -32,6 +33,7 @@ const Footer = () => {
       link: "#contact",
     },
   ];
+  
  const SOCIAL_LINKS = [
   {
     name: "facebook",

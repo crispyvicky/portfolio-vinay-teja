@@ -20,7 +20,7 @@ const Navbar = () => {
     "https://visiontech.world/_next/image?url=%2Fvisiontech-logo-no-background.png&w=640&q=75";
 
   return (
-    <nav className="w-9/12 mx-auto py-4 flex justify-between items-center relative z-50">
+    <nav className="lg:w-9/12 w-11/12 mx-auto py-4 flex justify-between items-center relative z-50">
       {/* Logo */}
       <img src={LOGO_URL} alt="VisionTech Logo" className="h-12 w-auto" />
 
