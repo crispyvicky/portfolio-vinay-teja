@@ -47,7 +47,7 @@ const Home = () => {
   ];
 
   return (
-    <section className="min-h-screen w-11/12 max-w-6xl mx-auto py-10 px-4 grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
+    <section className="min-h-screen w-11/12 max-w-6xl mx-auto py-10 px-4 grid grid-cols-1 lg:grid-cols-3 gap-10 items-center cursor-pointer">
       {/* Text Section */}
       <motion.div
         initial={{ opacity: 0, x: -40 }}
@@ -63,12 +63,12 @@ const Home = () => {
         <p className="text-3xl sm:text-3xl lg:text-3xl font-bold mt-1">
          FOUNDER & CEO
         </p>
-        <p className="text-sm sm:text-base lg:text-lg font-medium mt-4 text-gray-700">
+        <p className="text-sm sm:text-base lg:text-lg font-semibold mt-4 text-gray-700">
           In a world driven by acceleration, VisionTech emerged as a force of
           intention built to challenge the ordinary and awaken the
           extraordinary...
         </p>
-        <p className="text-sm sm:text-base lg:text-lg font-medium mt-4 text-gray-700">
+        <p className="text-sm sm:text-base lg:text-lg font-semibold mt-4 text-gray-700">
           Here, innovation is not a subject — it’s a mindset. Community,
           creativity, and code converge to craft experiences that shape
           character as much as skill...
