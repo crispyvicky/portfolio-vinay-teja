@@ -49,10 +49,10 @@ const About = () => {
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
-        className="flex justify-center"
+        className="flex justify-center "
       >
         <img
-          src="/image/image_2.png"
+          src="image/vinay.jpg"
           alt="Vinay Teja"
           className="w-full max-w-[400px] rounded-3xl hover:scale-105 transition-transform duration-300 object-cover"
         />
