@@ -69,7 +69,7 @@ const Home = () => {
             ecosystem where innovation, integrity, and intention come together.
           </p>
           <p className="text-base text-gray-700 leading-relaxed text-center text-base font-semibold text-gray-700">
-            At VisionTech, we don't just build apps or websites — we build
+            At <span className="text-[#42109F] font-bold">VisionTech</span> we don't just build apps or websites — we build
             experiences that shape skills and character. I believe in leading
             with empathy, mentoring young talent, and pushing boundaries with
             bold ideas. With a background in tech and a passion for creativity.
