@@ -52,9 +52,9 @@ const About = () => {
         className="flex justify-center "
       >
         <img
-          src="image/vinay.jpg"
+          src="image/VINAYR.jpg"
           alt="Vinay Teja"
-          className="w-full max-w-[400px] rounded-3xl hover:scale-105 transition-transform duration-300 object-cover"
+          className="w-full max-w-[500px] rounded-3xl hover:scale-105 transition-transform duration-300 object-cover"
         />
       </motion.div>
 
