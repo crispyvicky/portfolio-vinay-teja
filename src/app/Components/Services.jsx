@@ -9,25 +9,25 @@ const Services = () => {
   const SERVICES_ARRAY = [
     {
       name: "Sustainability & Ethical Leadership",
-      image: "/image/service_1.png",
+      image: "https://res.cloudinary.com/dsnpowjl5/image/upload/v1752224506/2_buocmv.png",
       des: "Championing sustainability and ethics as core drivers of business success and team culture.",
       id: 1,
     },
     {
       name: "AI & Automation",
-      image: "/image/service_2.png",
+      image: "https://res.cloudinary.com/dsnpowjl5/image/upload/v1752224506/1_zu0bj0.png",
       des: "I design AI-powered solutions and automation systems that simplify processes and amplify impact.",
       id: 2,
     },
     {
       name: "Digital Product Creation",
-      image: "/image/service_3.png",
+      image: "https://res.cloudinary.com/dsnpowjl5/image/upload/v1752224506/3_s7adhc.png",
       des: "Crafting impactful digital products through seamless design and technology integration.",
       id: 3,
     },
     {
       name: "Web & App Development",
-      image: "/image/service_4.png",
+      image: "https://res.cloudinary.com/dsnpowjl5/image/upload/v1752224506/4_a8ee6w.png",
       des: "Develops responsive websites and scalable apps with seamless performance and user-first design.",
       id: 4,
     },
